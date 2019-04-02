@@ -98,9 +98,9 @@ public class CameraManager {
             stopPlay();
         }
         if (HCNetSDK.getInstance().NET_DVR_Init()) {
-            Log.i(TAG, "初始化SDK 成功！");
+            Log.i(TAG, "初始化SDK成功！");
         } else {
-            Log.e(TAG, "初始化SDK 失败！");
+            Log.e(TAG, "初始化SDK失败！");
         }
     }
 
